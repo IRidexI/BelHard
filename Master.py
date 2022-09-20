@@ -5,6 +5,6 @@ print("Life is a quality that distinguishes matter that has biological processes
 
 num_1 = input("Enter first number: ")
 num_2 = input("Enter second number: ")
-result = int(num_1) + int(num_2)
+result = float(num_1) + float(num_2)
 
 print(result)
