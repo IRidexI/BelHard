@@ -14,3 +14,11 @@ result = float(num_1) + float(num_2)
 print(result)
 
 # Something
+
+n = input("Number: ")
+
+a = int(n[0])
+b = int(n[1])
+c = int(n[2])
+
+print("Sum:", a + b + c)
