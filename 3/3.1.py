@@ -1,5 +1,5 @@
-Number = int(input("Enter the number: "))
+Degree = int(input("Enter the degree: "))
 
-List = [2 ** i for i in range(1, Number + 1)]
+List = [2 ** i for i in range(1, Degree + 1)]
 
 print(List)
