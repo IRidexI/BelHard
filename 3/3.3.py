@@ -1,11 +1,11 @@
 
 # expected result:
 # users = {
-#     1: {
+#     0: {
 #         'name': 'name1',
 #         'email': 'email1'
 #     },
-#     2: {
+#     1: {
 #         'name': 'name2',
 #         'email': 'email2'
 #     }
