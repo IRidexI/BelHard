@@ -1,6 +1,7 @@
 n = int(input("Enter n: "))
 numbers = {}
 for i in range(n):
-    numbers = input("Enter numbers: ")
+    numb = input("Enter numbers: ")
+    numbers[i] = {"Numbers": numbers}
 
 print(max(numbers))
