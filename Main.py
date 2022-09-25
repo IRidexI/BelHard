@@ -22,3 +22,12 @@ b = int(n[1])
 c = int(n[2])
 
 print("Sum:", a + b + c)
+
+# Next
+n = int(input("Enter n: "))
+numbers = []
+for i in range(n):
+    numbers.append(int(input("number: ")))
+
+print(max(numbers))
+
