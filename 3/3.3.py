@@ -1,12 +1,7 @@
-
-# expected result:
-# users = {
-#     0: {
-#         'name': 'name1',
-#         'email': 'email1'
-#     },
-#     1: {
-#         'name': 'name2',
-#         'email': 'email2'
-#     }
-# }
+n = int(input("Enter n: "))
+users = {}
+for i in range(n):
+    name = input("Enter name: ")
+    email = input("Enter email: ")
+    users[i] = {"name": name, "email": email}
+print(users)
