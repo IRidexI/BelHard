@@ -1,8 +1,8 @@
 counter = 0
 s = ""
 
-for num in range(1, 4):
-    for
+for col in range(1, 4):
+    for row in range(1, 4):
         counter += 1
         num < 10
         s += str(num) + " "
