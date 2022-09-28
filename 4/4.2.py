@@ -5,31 +5,26 @@ result = 0
 
 if action == "+":
     result = num1 + num2
-    print("Result: ")
 
 
 elif action == "-":
     result = num1 - num2
-    print("Result: ")
 
 
 elif action == "/":
     result = num1 / num2
-    print("Result: ")
 
 
 elif action == "*":
     result = num1 * num2
-    print("Result: ")
 
 
 elif action == "**":
     result = num1 ** num2
-    print("Result: ")
 
 
 elif action == "%":
     result = num1 % num2
-    print("Result: ")
 
-print(result)
+
+print("Result: " + str(result))
