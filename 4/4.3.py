@@ -7,6 +7,6 @@ for num in range(2, Number2 + 1):
         print(num)
 
         if counter > 4:
-            print("\n")
+            print()
             counter = 0
 
