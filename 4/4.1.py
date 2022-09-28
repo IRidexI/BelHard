@@ -1,7 +1,7 @@
-N = int(input("Enter the first number: "))
-M = int(input("Enter second number: "))
-K = int(input("Enter last number: "))
+VarN = int(input("Enter the first number: "))
+VarM = int(input("Enter second number: "))
+VarK = int(input("Enter last number: "))
 
-for num in range(1, N+1):
-    if num % M == 0 and num > K:
+for num in range(1, VarN+1):
+    if num % VarM == 0 and num > VarK:
         print(num)
