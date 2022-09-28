@@ -5,11 +5,10 @@ s = ""
 for num in range(2, Number2 + 1):
     if num % 2 == 0:
         counter += 1
-        s += str(num)
-        print(s)
+        s += str(num) + " "
 
         if counter > 4:
-            print()
+            print(s)
             s = ""
             counter = 0
 
