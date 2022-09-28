@@ -1,9 +1,6 @@
-Number = int(input())
-Number2 = int(input())
-Number3 = int(input())
+Number1 = int(input("Enter the range number: "))
+Number2 = int(input("Enter second number: "))
+Number3 = int(input("Enter last number: "))
 
-while Number % Number2 > Number3:
-    Number += 2
-    Number3 += 1
-print(Number)
-# Doesn't work
+if Number1 % Number2 == 0 and Number1 > Number3:
+
