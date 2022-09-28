@@ -5,6 +5,6 @@ counter = 0
 for num in range(Number, Number2 + 1):
     if num % 2 == 0:
         counter += 1
+        print(num)
         if counter == 5:
             print(num)
-
