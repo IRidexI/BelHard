@@ -1,7 +1,7 @@
 num1 = float(input("Enter first number : "))
 action = input("What we gonna do? : +, -, /, *, %, ** ")
 num2 = float(input("Enter second number : "))
-result = 0
+result = "Wrong Action"
 
 if action == "+":
     result = num1 + num2
