@@ -7,7 +7,7 @@ for num in range(1, Number2 + 1):
         counter += 1
         s += str(num) + " "
 
-        if counter > 4:
+        if counter > 3:
             print(s)
             s = ""
             counter = 0
