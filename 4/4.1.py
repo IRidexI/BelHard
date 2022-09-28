@@ -1,8 +1,8 @@
-Number1 = int(input("Enter the first number: "))
-Number2 = int(input("Enter second number: "))
-Number3 = int(input("Enter last number: "))
+N = int(input("Enter the first number: "))
+M = int(input("Enter second number: "))
+K = int(input("Enter last number: "))
 
-if Number1 % Number2 == 0 and Number1 > Number3:
-    print(Number1)
+if N % M == 0 and N > K:
+    print(N)
 else:
     print("error")
