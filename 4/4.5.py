@@ -6,6 +6,7 @@ for col in range(1, 4):
         counter += 1
         num < 10
         s += str(num) + " "
+        num += 1
 
         if counter > 3:
             print(s)
