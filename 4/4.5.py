@@ -1,6 +1,6 @@
 counter = 0
 s = ""
-
+num = 1
 for col in range(1, 4):
     for row in range(1, 4):
         counter += 1
