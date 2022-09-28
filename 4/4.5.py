@@ -1,11 +1,11 @@
 s = ""
 num = 1
-for col in range(1, 4):
-    for row in range(1, 4):
+for col in range(0, 4):
+    for row in range(0, 4):
+        if num < 10:
+            s += " "
         s += str(num) + " "
         num += 1
-
-        if num < 10:
-            print(s)
-            s = ""
+    print(s)
+    s = ""
 
