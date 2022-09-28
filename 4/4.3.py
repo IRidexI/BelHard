@@ -7,4 +7,5 @@ for num in range(Number, Number2 + 1):
         counter += 1
         print(num)
         if counter == 5:
+            print("\n")
             print(num)
