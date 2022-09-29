@@ -1,7 +1,5 @@
-VarN = int(input("Enter the first number: "))
-VarM = int(input("Enter second number: "))
-VarK = int(input("Enter last number: "))
+Degree = int(input("Enter the degree: "))
 
-for num in range(1, VarN+1):
-    if num % VarM == 0 and num > VarK:
-        print(num)
+List = [2 ** i for i in range(1, Degree + 1)]
+
+print(List)

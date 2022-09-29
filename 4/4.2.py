@@ -1,30 +1,5 @@
-num1 = float(input("Enter first number : "))
-action = input("What we gonna do? : +, -, /, *, %, ** ")
-num2 = float(input("Enter second number : "))
-result = "Wrong Action"
+text = (input("Enter text: "))
 
-if action == "+":
-    result = num1 + num2
+data = {i: text.count(i) for i in text}
 
-
-elif action == "-":
-    result = num1 - num2
-
-
-elif action == "/":
-    result = num1 / num2
-
-
-elif action == "*":
-    result = num1 * num2
-
-
-elif action == "**":
-    result = num1 ** num2
-
-
-elif action == "%":
-    result = num1 % num2
-
-
-print("Result: " + str(result))
+print(data)
