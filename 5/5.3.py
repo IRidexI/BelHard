@@ -11,4 +11,3 @@ for num in range(2, Number2 + 1):
             print(s)
             s = ""
             counter = 0
-
