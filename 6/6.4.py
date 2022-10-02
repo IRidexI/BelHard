@@ -1,3 +1,7 @@
-List = [["Lol", "Omg", "Lmao"], [4, 1, 24, 15]]
-List = list(filter(lambda x: x == int, List))
-print(List)
+List = ["World", "Hello", "Lol"]
+result = []
+for Lists in List:
+    if Lists == str:
+        result.append(Lists)
+
+print(Lists)
